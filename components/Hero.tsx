@@ -137,8 +137,8 @@ export default function Hero() {
               Ver Proyectos
             </a>
             <a
-              href="/cv-medaimy-rivera.pdf"
-              download
+              href="/projects/Curriculum vitae.pdf"
+              target="_blank"
               className="px-8 py-3 rounded-full glass text-white font-semibold hover:bg-white/10 transition-all duration-300 glow-border inline-flex items-center gap-2"
             >
               <FaDownload className="w-4 h-4" />
