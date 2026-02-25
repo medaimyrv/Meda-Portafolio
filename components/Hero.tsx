@@ -170,7 +170,7 @@ export default function Hero() {
               <FaLinkedin className="w-6 h-6" />
             </a>
             <a
-              href="mailto:medaimy@gmail.com"
+              href="mailto:medaimyrivera@gmail.com"
               className="text-gray-400 hover:text-primary-purple transition-colors duration-300 hover:scale-110"
             >
               <FaEnvelope className="w-6 h-6" />

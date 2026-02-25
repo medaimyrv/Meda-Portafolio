@@ -8,8 +8,8 @@ const contactInfo = [
   {
     icon: FaEnvelope,
     label: 'Email',
-    value: 'medaimy@gmail.com',
-    href: 'mailto:medaimy@gmail.com',
+    value: 'medaimyrivera@gmail.com',
+    href: 'mailto:medaimyrivera@gmail.com',
     color: 'hover:text-primary-pink',
   },
   {

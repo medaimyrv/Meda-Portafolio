@@ -5,7 +5,7 @@ import { FaHeart, FaGithub, FaLinkedin, FaEnvelope } from 'react-icons/fa'
 const socialLinks = [
   { icon: FaGithub, href: 'https://github.com/medaimyrv', label: 'GitHub' },
   { icon: FaLinkedin, href: 'https://linkedin.com', label: 'LinkedIn' },
-  { icon: FaEnvelope, href: 'mailto:medaimy@email.com', label: 'Email' },
+  { icon: FaEnvelope, href: 'mailto:medaimyrivera@gmail.com', label: 'Email' },
 ]
 
 const navLinks = [

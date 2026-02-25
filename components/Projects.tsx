@@ -108,10 +108,16 @@ export default function Projects() {
 
               {/* Contenido */}
               <div className="p-6">
-                <h3 className="text-xl font-display font-semibold mb-2 group-hover:text-gradient transition-all duration-300">
+                <a
+                  href={project.github}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-xl font-display font-semibold mb-2 group-hover:text-gradient transition-all duration-300 flex items-center gap-2 hover:underline"
+                >
                   {project.title}
-                </h3>
-                <p className="text-gray-400 text-sm mb-4">
+                  <FaGithub className="w-4 h-4 text-gray-500" />
+                </a>
+                <p className="text-gray-400 text-sm mb-4 mt-2">
                   {project.description}
                 </p>
 
