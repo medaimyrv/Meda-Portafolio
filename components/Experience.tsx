@@ -1,24 +1,32 @@
 'use client'
 
 import { motion } from 'framer-motion'
-import { FaBriefcase, FaGraduationCap } from 'react-icons/fa'
+import { FaBriefcase, FaGraduationCap, FaRocket } from 'react-icons/fa'
 
 const timeline = [
   {
     type: 'education',
     title: 'Ingeniería Informática',
-    organization: 'Universidad',
-    period: '2020 - 2024',
-    description: 'Formación en desarrollo de software, bases de datos, algoritmos e inteligencia artificial.',
+    organization: 'Universidad de las Ciencias Informáticas (UCI)',
+    period: '2005 - 2010',
+    description: 'Formación integral en desarrollo de software, bases de datos, algoritmos, redes y arquitectura de sistemas.',
     icon: FaGraduationCap,
   },
   {
     type: 'work',
-    title: 'Ingeniera de IA',
-    organization: 'Proyectos Independientes',
-    period: '2024 - Presente',
-    description: 'Desarrollo de soluciones con IA: generación de video con TheMediaBoot, estrategias de contenido con SocialGenius-AI, automatización de flujos y agentes inteligentes.',
+    title: 'Ingeniera Informática',
+    organization: 'Trayectoria Profesional',
+    period: '2010 - 2023',
+    description: 'Más de una década aplicando ingeniería de software en diversos entornos profesionales, resolviendo problemas reales con tecnología.',
     icon: FaBriefcase,
+  },
+  {
+    type: 'work',
+    title: 'Ingeniera de IA & Desarrollo Web',
+    organization: 'Proyectos Independientes',
+    period: '2023 - Presente',
+    description: 'Especialización autodidacta en IA, Machine Learning y desarrollo web moderno. Creación de TheMediaBoot y SocialGenius-AI, automatización de flujos y agentes inteligentes.',
+    icon: FaRocket,
   },
 ]
 

@@ -67,33 +67,33 @@ export default function About() {
                 Medaimy Rivera Valiente
               </h3>
               <p className="text-gray-400 leading-relaxed mb-4">
-                Soy una <span className="text-primary-pink font-medium">Ingeniera Informática</span> apasionada
-                por la tecnología y la innovación. Mi enfoque combina el desarrollo web moderno con la
-                ciencia de datos para crear soluciones impactantes.
+                Soy <span className="text-primary-pink font-medium">Ingeniera Informática</span> graduada
+                de la UCI con más de 15 años de experiencia en tecnología. Hoy me especializo en
+                construir soluciones con inteligencia artificial que resuelven problemas reales.
               </p>
               <p className="text-gray-400 leading-relaxed mb-4">
-                Con experiencia en <span className="text-primary-cyan font-medium">Inteligencia Artificial</span> y
-                análisis de datos, me especializo en transformar información compleja en conocimientos
-                accionables y experiencias de usuario excepcionales.
+                Mi enfoque está en <span className="text-primary-cyan font-medium">flujos automatizados de IA</span>,
+                desarrollo de agentes inteligentes y creación de aplicaciones web que integran modelos
+                de IA para potenciar negocios y automatizar procesos.
               </p>
               <p className="text-gray-400 leading-relaxed">
-                Mi objetivo es crear tecnología que haga la diferencia, combinando creatividad con
-                precisión técnica para resolver problemas del mundo real.
+                Combino mi formación como ingeniera con un aprendizaje autodidacta constante
+                para mantenerme a la vanguardia de las tecnologías emergentes.
               </p>
 
               {/* Stats */}
               <div className="grid grid-cols-3 gap-4 mt-8 pt-8 border-t border-white/10">
                 <div className="text-center">
                   <div className="text-2xl font-bold text-gradient">15+</div>
-                  <div className="text-sm text-gray-500">Proyectos</div>
+                  <div className="text-sm text-gray-500">Años de experiencia</div>
                 </div>
                 <div className="text-center">
-                  <div className="text-2xl font-bold text-gradient">10+</div>
-                  <div className="text-sm text-gray-500">Tecnologías</div>
+                  <div className="text-2xl font-bold text-gradient">UCI</div>
+                  <div className="text-sm text-gray-500">Ing. Informática</div>
                 </div>
                 <div className="text-center">
-                  <div className="text-2xl font-bold text-gradient">100%</div>
-                  <div className="text-sm text-gray-500">Dedicación</div>
+                  <div className="text-2xl font-bold text-gradient">IA</div>
+                  <div className="text-sm text-gray-500">Aplicada</div>
                 </div>
               </div>
             </div>
