@@ -1,0 +1,40 @@
+# Portafolio - Medaimy Rivera Valiente
+
+Portafolio profesional de Medaimy Rivera Valiente, Ingeniera Informática graduada de la UCI con más de 15 años de experiencia, especializada en IA aplicada y desarrollo web moderno.
+
+**[Ver en vivo](https://meda-portafolio.vercel.app/)**
+
+## Stack Tecnológico
+
+- **Framework:** Next.js 14 (App Router)
+- **Lenguaje:** TypeScript
+- **Estilos:** Tailwind CSS
+- **Animaciones:** Framer Motion
+- **Iconos:** React Icons
+- **Tipografía:** Google Fonts (Inter + Space Grotesk)
+- **Despliegue:** Vercel
+
+## Secciones
+
+- Hero con roles animados y partículas
+- Sobre Mí
+- Skills & Tecnologías (6 categorías)
+- Experiencia & Educación (timeline)
+- Proyectos Destacados
+- Aprendizaje Autodidacta
+- Contacto
+
+## Ejecutar localmente
+
+```bash
+npm install
+npm run dev
+```
+
+Abrir [http://localhost:3000](http://localhost:3000)
+
+## Autora
+
+**Medaimy Rivera Valiente**
+- GitHub: [@medaimyrv](https://github.com/medaimyrv)
+- Email: medaimyrivera@gmail.com
