@@ -62,7 +62,7 @@ export default function About() {
             viewport={{ once: true }}
             transition={{ duration: 0.6, delay: 0.2 }}
           >
-            <div className="glass rounded-3xl p-8">
+            <div className="glass rounded-3xl p-5 sm:p-8">
               <h3 className="text-2xl font-display font-semibold mb-4">
                 Medaimy Rivera Valiente
               </h3>
@@ -82,18 +82,18 @@ export default function About() {
               </p>
 
               {/* Stats */}
-              <div className="grid grid-cols-3 gap-4 mt-8 pt-8 border-t border-white/10">
+              <div className="grid grid-cols-3 gap-2 sm:gap-4 mt-8 pt-8 border-t border-white/10">
                 <div className="text-center">
-                  <div className="text-2xl font-bold text-gradient">15+</div>
-                  <div className="text-sm text-gray-500">Años de experiencia</div>
+                  <div className="text-xl sm:text-2xl font-bold text-gradient">15+</div>
+                  <div className="text-xs sm:text-sm text-gray-500">Años de exp.</div>
                 </div>
                 <div className="text-center">
-                  <div className="text-2xl font-bold text-gradient">UCI</div>
-                  <div className="text-sm text-gray-500">Ing. Informática</div>
+                  <div className="text-xl sm:text-2xl font-bold text-gradient">UCI</div>
+                  <div className="text-xs sm:text-sm text-gray-500">Ing. Informática</div>
                 </div>
                 <div className="text-center">
-                  <div className="text-2xl font-bold text-gradient">IA</div>
-                  <div className="text-sm text-gray-500">Aplicada</div>
+                  <div className="text-xl sm:text-2xl font-bold text-gradient">IA</div>
+                  <div className="text-xs sm:text-sm text-gray-500">Aplicada</div>
                 </div>
               </div>
             </div>

@@ -35,6 +35,16 @@ const projects: Project[] = [
     github: 'https://github.com/medaimyrv/SocialGenius-AI',
     color: 'from-primary-pink to-primary-purple',
   },
+  {
+    id: 3,
+    title: 'ConsultIA RAG',
+    description:
+      'Plataforma empresarial que combina Fine-Tuning y RAG para entrenar un LLM sobre documentos de consultoría (contratos, código, reportes). Chat inteligente con contexto propio de cada empresa.',
+    image: '/projects/consultia.jpg',
+    tags: ['FastAPI', 'Next.js', 'Prisma', 'RAG', 'Fine-Tuning', 'LLM'],
+    github: 'https://github.com/medaimyrv/consultia-rag',
+    color: 'from-primary-cyan to-primary-purple',
+  },
 ]
 
 export default function Projects() {
@@ -64,7 +74,7 @@ export default function Projects() {
         </motion.div>
 
         {/* Grid de proyectos */}
-        <div className="grid md:grid-cols-2 gap-8 max-w-4xl mx-auto">
+        <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8 max-w-6xl mx-auto">
           {projects.map((project, index) => (
             <motion.div
               key={project.id}

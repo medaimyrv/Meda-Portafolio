@@ -23,8 +23,12 @@ import {
   SiTensorflow,
   SiOpenai,
   SiLangchain,
+  SiFastapi,
+  SiAmazonwebservices,
+  SiAmazons3,
+  SiAwslambda,
 } from 'react-icons/si'
-import { TbSoup, TbRobot, TbBrain, TbChartBar, TbChartDots, TbNetwork, TbEye, TbMessageChatbot } from 'react-icons/tb'
+import { TbSoup, TbRobot, TbBrain, TbChartBar, TbChartDots, TbNetwork, TbEye, TbMessageChatbot, TbCloudComputing } from 'react-icons/tb'
 
 const skillCategories = [
   {
@@ -84,10 +88,21 @@ const skillCategories = [
     title: 'Automatización & Agentes IA',
     color: 'from-primary-cyan to-primary-pink',
     skills: [
+      { name: 'FastAPI', icon: SiFastapi, level: 85 },
       { name: 'Agentes de IA', icon: TbRobot, level: 88 },
       { name: 'Flujos Automatizados', icon: TbBrain, level: 85 },
       { name: 'OpenAI API', icon: SiOpenai, level: 90 },
       { name: 'LangChain', icon: SiLangchain, level: 82 },
+    ],
+  },
+  {
+    title: 'AWS Cloud (en aprendizaje)',
+    color: 'from-primary-pink to-primary-purple',
+    skills: [
+      { name: 'S3', icon: SiAmazons3, level: 65 },
+      { name: 'Lambda', icon: SiAwslambda, level: 60 },
+      { name: 'SageMaker', icon: TbCloudComputing, level: 58 },
+      { name: 'Bedrock (LLMs)', icon: SiAmazonwebservices, level: 55 },
     ],
   },
 ]

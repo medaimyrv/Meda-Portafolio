@@ -80,7 +80,7 @@ export default function Contact() {
             viewport={{ once: true }}
             transition={{ duration: 0.6, delay: 0.2 }}
           >
-            <div className="glass rounded-3xl p-8 h-full">
+            <div className="glass rounded-3xl p-5 sm:p-8 h-full">
               <h3 className="text-2xl font-display font-semibold mb-6">
                 Información de Contacto
               </h3>
@@ -107,7 +107,7 @@ export default function Contact() {
                     </div>
                     <div>
                       <div className="text-sm text-gray-500">{item.label}</div>
-                      <div className="font-medium">{item.value}</div>
+                      <div className="font-medium text-sm sm:text-base break-all">{item.value}</div>
                     </div>
                   </motion.a>
                 ))}
@@ -131,7 +131,7 @@ export default function Contact() {
           >
             <form
               onSubmit={handleSubmit}
-              className="glass rounded-3xl p-8"
+              className="glass rounded-3xl p-5 sm:p-8"
             >
               <h3 className="text-2xl font-display font-semibold mb-6">
                 Envíame un Mensaje
